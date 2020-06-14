@@ -1,0 +1,8 @@
+2020-06-13 17:02:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TALE[*] CURRENCY_QUOTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP TALE[*] CURRENCY_QUOTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+drop tale currency_quote [42001-200]
+2020-06-13 17:24:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "select * from CURRENCY[*]'"
+Syntax error in SQL statement "select * from CURRENCY[*]'"; SQL statement:
+select * from CURRENCY' [42000-200]
